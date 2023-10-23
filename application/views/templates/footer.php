@@ -11,7 +11,7 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-12">
-                                2022 - 2023 &copy; Clinica Aquino by <a href="">Softtech Solutions</a>
+                                2022 - 2023 &copy; Clinic Management System (CMS) Powered by <a href="#">SoftTech Solutions and Services Co.</a>
                             </div>
                         </div>
                     </div>

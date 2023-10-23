@@ -60,9 +60,9 @@
                                                     <th>PATIENT NAME</th> 	
                                                     <th>DATE</th> 	
                                                     <th>RECIEPT CODE</th> 	
-                                                    <th>TOTAL AMOUNT</th> 	
-                                                    <th>TOTAL DISCOUNT</th> 	
-                                                    <th>TOTAL AMOUNT DUE</th>
+                                                    <th style='text-align:center;'>TOTAL AMOUNT</th> 	
+                                                    <th style='text-align:center;'>TOTAL DISCOUNT</th> 	
+                                                    <th style='text-align:center;'>TOTAL AMOUNT DUE</th>
                                                 </tr>
                                             </thead>
 
@@ -78,9 +78,9 @@
                                                     <td><?= strtoupper($p->first_name.' '.$p->middle_name.' '.$p->last_name); ?></td>
                                                     <td><?= $row->date; ?></td>
                                                     <td><?= $row->reciept_code; ?></td>
-                                                    <td><?= $row->total_retail; ?></td>
-                                                    <td><?= $row->discount; ?></td>
-                                                    <td><?= $row->amount_due; ?></td>
+                                                    <td style='text-align:center;'><?= number_format($row->total_retail,2) ; ?></td>
+                                                    <td style='text-align:center;'><?= number_format($row->discount,2); ?></td>
+                                                    <td style='text-align:center;'><?= number_format($row->amount_due,2); ?></td>
                                                     <?php $totalAmount += $row->amount_due; ?>
                                                 </tr>
                                                 <?php } } ?>

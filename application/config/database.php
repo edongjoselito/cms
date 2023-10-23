@@ -77,16 +77,16 @@ $db['default'] = array(
 	'dsn'	=> '',
 
 	// Local Database
-	// 'hostname' => 'localhost',
-	// 'username' => 'root',
-	// 'password' => '',
-	// 'database' => 'clinicaa_db',
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
+	'database' => 'clinicaa_db',
 
 	// Online Database
-	'hostname' => '198.23.58.128',
-	'username' => 'clinicaa_admin',
-	'password' => 'member123',
-	'database' => 'clinicaa_db',
+	// 'hostname' => '198.23.58.128',
+	// 'username' => 'clinicaa_admin',
+	// 'password' => 'member123',
+	// 'database' => 'clinicaa_db',
 
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
