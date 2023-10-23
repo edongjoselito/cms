@@ -9,7 +9,7 @@
                 <li class="menu-title">Navigation</li>
 
                 <li><a href="<?= base_url(); ?>" class="waves-effect"><i class="ion-md-speedometer"></i><span>  Dashboard  </span></a></li>
-                <li><a href="<?= base_url(); ?>Pages/patient_list" class="waves-effect"><i class=" ion ion-md-people"></i><span>  Patients </span></a></li>
+                <li><a href="<?= base_url(); ?>Pages/patient_list" target="_blank" class="waves-effect"><i class=" ion ion-md-people"></i><span>  Patients </span></a></li>
                 <li><a href="<?= base_url(); ?>Pages/patient_queue" class="waves-effect"><i class=" fab fa-accessible-icon"></i><span>  Patient's Queue</span></a></li>
                 <li><a href="<?= base_url(); ?>Pages/pay" class="waves-effect"><i class="mdi mdi-folder-open-outline "></i><span>  Patient's Bill </span></a></li>
                 
