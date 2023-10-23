@@ -26,7 +26,7 @@
                     <div class="col-md-8 col-lg-6 col-xl-5">
                         <div class="card mt-4">
                             <div class="card-header p-4 bg-primary">
-                                <h4 class="text-white text-center mb-0 mt-0"><img src="<?= base_url(); ?>assets/images/logo-dark.png" alt="" height="70"><br />CLINICA AQUINO</h4>
+                                <h4 class="text-white text-center mb-0 mt-0"><img src="<?= base_url(); ?>assets/images/logo-cms.png" alt="" width="100%"></h4>
                             </div>
                             <div class="card-body">
                             <?php if($this->session->flashdata('failed')) : ?>

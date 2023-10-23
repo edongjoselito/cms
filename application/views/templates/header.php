@@ -8,7 +8,7 @@ redirect(base_url().'Pages/log_in');
 
     <head>
         <meta charset="utf-8" />
-        <title>Dashboard  | Clinica Aquino Admin Dashboard</title>
+        <title>Dashboard  | Clinic Management System</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="Responsive bootstrap 4 admin template" name="description" />
         <meta content="Coderthemes" name="author" />
@@ -100,23 +100,23 @@ redirect(base_url().'Pages/log_in');
                 <div class="logo-box">
                     <a href="<?= base_url(); ?>" class="logo text-center logo-dark">
                         <span class="logo-lg">
-                            <img src="<?= base_url(); ?>assets/images/logo-dark.png" alt="" height="50">
+                            <img src="<?= base_url(); ?>assets/images/logo-cms.png" alt="" height="50">
                             <!-- <span class="logo-lg-text-dark">Velonic</span> -->
                         </span>
                         <span class="logo-sm">
                             <!-- <span class="logo-lg-text-dark">V</span> -->
-                            <img src="<?= base_url(); ?>assets/images/logo-sm.png" alt="" height="22">
+                            <img src="<?= base_url(); ?>assets/images/logo-cms.png" alt="" height="22">
                         </span>
                     </a>
 
                     <a href="<?= base_url(); ?>" class="logo text-center logo-light">
                         <span class="logo-lg">
-                            <img src="<?= base_url(); ?>assets/images/logo-light.png" alt="" height="50">
+                            <img src="<?= base_url(); ?>assets/images/logo-cms.png" alt="" height="50">
                             <!-- <span class="logo-lg-text-dark">Velonic</span> -->
                         </span>
                         <span class="logo-sm">
                             <!-- <span class="logo-lg-text-dark">V</span> -->
-                            <img src="<?= base_url(); ?>assets/images/logo-sm.png" alt="" height="22">
+                            <img src="<?= base_url(); ?>assets/images/logo-cms.png" alt="" height="22">
                         </span>
                     </a>
                 </div>
